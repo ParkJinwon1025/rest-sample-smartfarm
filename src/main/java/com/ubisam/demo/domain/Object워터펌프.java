@@ -13,6 +13,6 @@ public class Object워터펌프 {
     @Id
     private UUID id;
     private String name;
-    private String locaion;
+    private String location;
     
 }
