@@ -13,6 +13,6 @@ public class Object조도센서 {
     @Id
     private UUID id;
     private String name;
-    private String locations;
+    private String location;
     
 }

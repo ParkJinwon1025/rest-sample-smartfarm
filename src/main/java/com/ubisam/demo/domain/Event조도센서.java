@@ -4,11 +4,11 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
-public class Event온습도 {
+public class Event조도센서 {
 
     @Id
     private Long timestamp;
-    private Long temperature; // 온도
-    private Long humidity; // 습도
+    private Object조도센서 조도센서;
+    private Long value;
     
 }

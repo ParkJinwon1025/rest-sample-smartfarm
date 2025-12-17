@@ -8,8 +8,9 @@ public class Event수위센서제어 {
 
     @Id
     private Long timestamp;
+    private Object수위센서 수위센서;
     private boolean isOn; // On/Off 여부
-    private Event수위 수위이벤트; // 수위값
+    private Event수위센서 수위이벤트; // 수위값
     private boolean isManual; // true(수동) / false(자동)
     
 }

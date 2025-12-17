@@ -4,13 +4,13 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
-public class Event팬제어 {
-    
+public class Event팬 {
+
     @Id
     private Long timestamp;
     private Object팬 팬;
     private boolean isOn; // On/Off 여부
-    private Long speed; // 팬 속도
+    private Long speed;
     private Long direction; // 회전 방향
-    private boolean isManual; // true(수동) / false(자동)
+    
 }
